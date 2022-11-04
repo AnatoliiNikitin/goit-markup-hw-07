@@ -18,41 +18,40 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-navigation">
-          <a class="header-logo link" href=""
+      <div class="container header__container">
+        <nav class="navigation">
+          <a class="navigation__logo link" href=""
             >Web<span class="logo-color">Studio</span></a
           >
-          <ul class="header-list list">
-            <li class="header-iten">
-              <a class="header-link link" href="./index.html">Студія</a>
+          <ul class="menu ">
+            <li class="menu__iten">
+              <a class="menu__link link " href="./index.html">Студія</a>
             </li>
-            <li class="header-iten">
-              <a class="header-link link current" href="./portfolio.html"
-                >Портфоліо</a
-              >
+            <li class="menu__iten">
+              <a class="menu__link link current" href="">Портфоліо</a>
             </li>
-            <li class="header-iten">
-              <a class="header-link link" href="">Контакти</a>
+            <li class="menu__iten">
+              <a class="menu__link link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
-        <div class="header-contact">
-          <div class="header-soc">
-            <a class="header-mail" href="mailto:info@devstudio.com">
-              <svg class="header-soc-icon" width="16" height="12">
+        <div class="header__contact contact">
+          <div class="contact__soc">
+            <a class="contact__mail" href="mailto:info@devstudio.com">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/symbol-defs-con.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </div>
-          <div class="header-soc">
-            <a class="header-tel" href="tel:+380961111111">
-              <svg class="header-soc-icon" width="10" height="16">
+          <div class="contact__soc">
+            <a class="contact__tel" href="tel:+380961111111">
+              <svg class="contact__icon" width="10" height="16">
                 <use href="./images/symbol-defs-con.svg#icon-Vector"></use>
               </svg>
               +38 096 111 11 11
@@ -63,32 +62,32 @@
     </header>
     <main>
       <section class="portfolio">
-        <div class="container container-portfolio">
-          <h1 class="portfolio-title" hidden>Портфоліо</h1>
+        <div class="container portfolio__conteiner">
+          <h1 class="portfolio__title" hidden>Портфоліо</h1>
 
-          <ul class="portfolio-list">
-            <li class="portfolio-iten">
-              <button type="button" class="portfolio-button button-everyone">
+          <ul class="list">
+            <li class="list__iten">
+              <button type="button" class="list__button button-everyone">
                 Усі
               </button>
             </li>
-            <li class="portfolio-iten">
-              <button type="button" class="portfolio-button button-veb">
+            <li class="list__iten">
+              <button type="button" class="list__button button-veb">
                 Веб-сайти
               </button>
             </li>
-            <li class="portfolio-iten">
-              <button type="button" class="portfolio-button button-addition">
+            <li class="list__iten">
+              <button type="button" class="list__button button-addition">
                 Додатки
               </button>
             </li>
-            <li class="portfolio-iten">
-              <button type="button" class="portfolio-button button-desing">
+            <li class="list__iten">
+              <button type="button" class="list__button button-desing">
                 Дизайн
               </button>
             </li>
-            <li class="portfolio-iten">
-              <button type="button" class="portfolio-button button-marketing">
+            <li class="list__iten">
+              <button type="button" class="list__button button-marketing">
                 Маркетинг
               </button>
             </li>
@@ -266,7 +265,7 @@
           </div>
           <div class="footer-soc">
             <h2 class="soc-title">ПРИЄДНУЙТЕСЬ</h2>
-            <ul class="soc-list">
+            <ul class="footer-soc-list">
               <li class="soc-iten">
                 <a class="footer-soc-link" href="">
                   <svg class="footer-soc-icon" width="20" height="20">

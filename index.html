@@ -18,39 +18,39 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-navigation">
-          <a class="header-logo link" href=""
+      <div class="container header__container">
+        <nav class="navigation">
+          <a class="navigation__logo link" href=""
             >Web<span class="logo-color">Studio</span></a
           >
-          <ul class="header-list list">
-            <li class="header-iten">
-              <a class="header-link link current" href="">Студія</a>
+          <ul class="menu">
+            <li class="menu__iten">
+              <a class="menu__link link current" href="">Студія</a>
             </li>
-            <li class="header-iten">
-              <a class="header-link link" href="./portfolio.html">Портфоліо</a>
+            <li class="menu__iten">
+              <a class="menu__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="header-iten">
-              <a class="header-link link" href="">Контакти</a>
+            <li class="menu__iten">
+              <a class="menu__link link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
-        <div class="header-contact">
-          <div class="header-soc">
-            <a class="header-mail" href="mailto:info@devstudio.com">
-              <svg class="header-soc-icon" width="16" height="12">
+        <div class="header__contact contact">
+          <div class="contact__soc">
+            <a class="contact__mail" href="mailto:info@devstudio.com">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/symbol-defs-con.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </div>
-          <div class="header-soc">
-            <a class="header-tel" href="tel:+380961111111">
-              <svg class="header-soc-icon" width="10" height="16">
+          <div class="contact__soc">
+            <a class="contact__tel" href="tel:+380961111111">
+              <svg class="contact__icon" width="10" height="16">
                 <use href="./images/symbol-defs-con.svg#icon-Vector"></use>
               </svg>
               +38 096 111 11 11
@@ -69,52 +69,52 @@
         </div>
       </section>
       <section class="peculiarities">
-        <div class="container">
+        <div class="container peculiarities__conteiner">
           <h2 hidden>Особливості</h2>
-          <ul class="peculiarities-list">
-            <li class="peculiarities-iten">
-              <div class="peculiarities-soc-link" href="">
-                <svg class="peculiarities-soc-icon" width="70" height="70">
+          <ul class="benefits">
+            <li class="benefits__iten">
+              <div class="benefits__link" href="">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/symbol-defs2.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="peculiarities-text">
+              <h3 class="benefits__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="benefits__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="peculiarities-iten">
-              <div class="peculiarities-soc-link" href="">
-                <svg class="peculiarities-soc-icon" width="70" height="70">
+            <li class="benefits__iten">
+              <div class="benefits__link" href="">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/symbol-defs2.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="peculiarities-title">ПУНКТУЛЬНІСТЬ</h3>
-              <p class="peculiarities-text">
+              <h3 class="benefits__title">ПУНКТУЛЬНІСТЬ</h3>
+              <p class="benefits__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="peculiarities-iten">
-              <div class="peculiarities-soc-link" href="">
-                <svg class="peculiarities-soc-icon" width="70" height="70">
+            <li class="benefits__iten">
+              <div class="benefits__link" href="">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/symbol-defs2.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
-              <p class="peculiarities-text">
+              <h3 class="benefits__title">ПЛАНУВАННЯ</h3>
+              <p class="benefits__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="peculiarities-iten">
-              <div class="peculiarities-soc-link" href="">
-                <svg class="peculiarities-soc-icon" width="70" height="70">
+            <li class="benefits__iten">
+              <div class="benefits__link" href="">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/symbol-defs2.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="peculiarities-text">
+              <h3 class="benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="benefits__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -435,7 +435,7 @@
           </div>
           <div class="footer-soc">
             <h2 class="soc-title">ПРИЄДНУЙТЕСЬ</h2>
-            <ul class="soc-list">
+            <ul class="footer-soc-list">
               <li class="soc-iten">
                 <a class="footer-soc-link" href="">
                   <svg class="footer-soc-icon" width="20" height="20">
@@ -470,21 +470,20 @@
             <div class="footer-field">
               <label>
                 <span class="footer-lable-text">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</span>
-                  <input
-                    type="email"
-                    class="footer-input"
-                    name="uzer-email"
-                    placeholder="E-mail"
-                    required
-                  />
+                <input
+                  type="email"
+                  class="footer-input"
+                  name="uzer-email"
+                  placeholder="E-mail"
+                  required
+                />
               </label>
             </div>
-              <div>
-              <button type="button" class="footer-botom">Підписатися
+            <div>
+              <button type="button" class="footer-botom">
+                Підписатися
                 <svg class="footer-input-icon" width="24" height="24">
-                  <use
-                    href="./images/symbol-defs (1).svg#icon-icon-send"
-                  ></use>
+                  <use href="./images/symbol-defs (1).svg#icon-icon-send"></use>
                 </svg>
               </button>
             </div>
@@ -492,7 +491,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden"  data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <div class="modal-close">
           <button type="button" data-modal-close class="modal-btn">
@@ -513,7 +512,7 @@
                   name="uzer-name"
                   required
                 />
-      
+
                 <svg class="modul-input-icon" width="18" height="18">
                   <use
                     href="./images/symbol-defs (1).svg#icon-person-black"
@@ -525,7 +524,7 @@
           <div class="modul-field">
             <label>
               <span class="modul-lable-text">Телефон</span>
-              
+
               <span class="input-wrap">
                 <input
                   type="tel"
@@ -583,11 +582,18 @@
                 ><svg class="check-icon" width="16" height="15">
                   <use
                     href="./images/symbol-defs (1).svg#icon-Vector"
-                  ></use></svg></span>
-              Погоджуюся з розсилкою та приймаю&nbsp<a href="" class="href-check">Умови договору</a>
+                  ></use></svg
+              ></span>
+              Погоджуюся з розсилкою та приймаю&nbsp<a
+                href=""
+                class="href-check"
+                >Умови договору</a
+              >
             </label>
           </div>
-          <div class="modal-botn"><button type="submit" class="modal-botom">Відправити</button></div>
+          <div class="modal-botn">
+            <button type="submit" class="modal-botom">Відправити</button>
+          </div>
         </form>
       </div>
     </div>
